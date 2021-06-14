@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=0, initial-scale=1,minimum-scale=1, maximum-scale=1, width=device-width, minimal-ui=1">
+    <title>Sound Game</title>
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.11.0/dist/phaser.js"></script>
+  
+    <script src="mys/game-objects/instrument.js"></script>
+    <script src="mys/game-objects/position.js"></script>
+    <script src="mys/game-objects/text-title.js"></script>
+    <script src="mys/game-objects/text-button.js"></script>
+    <script src="mys/game-objects/sound.js"></script>
+
+    <script src="mys/gameScene.js"></script>
+    <script src="mys/menuScene.js"></script>
+    <script src="mys/finalScene.js"></script>
+
+    <script src="mys/main.js"></script>
+    
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfT7u4UAAAAAEeG3h96r6aHvmuIdNA2rrmaHnpo"></script>
+
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js "> </script>
+    <script src="mys/scriptTest.js"></script>
+    
+    <script>
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6LfT7u4UAAAAAEeG3h96r6aHvmuIdNA2rrmaHnpo', {action: 'homepage'}).then(function(token) {
+            });
+        });
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div style="font-family:myFont; position:absolute; left:-1000px; visibility:hidden;">.</div>
+</body>
+
+</html>
