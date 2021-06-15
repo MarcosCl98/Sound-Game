@@ -204,28 +204,27 @@ function trackEventOverElement(eventType, elementId) {
 // InitTrakcing function
 function initTracking(_sceneId) {
 	
-	trackingOn = true;
-	sceneId = _sceneId;
+	//trackingOn = true;
+	//sceneId = _sceneId;
 
-	// We start tracking the mouse movements
-	trackEvent(100);
-	timeStart = new Date();
+	//trackEvent(100);
+	//timeStart = new Date();
 
-	var scena = parent;
-	scena.addEventListener('click', function () {
-		trackClick();
-	});
+	//var scena = parent;
+	//scena.addEventListener('click', function () {
+		//trackClick();
+	//});
 
 }
 
 
 function finishTracking(_newPage, sceneParam, gameParam, numberOfErrors) {
 
-	game = gameParam;
-	scene = sceneParam;
-	trackEvent(200);
-	trackingOn = false;
-	registerUserData(numberOfErrors);
+//game = gameParam;
+	//scene = sceneParam;
+	//trackEvent(200);
+	//trackingOn = false;
+	//registerUserData(numberOfErrors);
 }
 
 function deliverChunk(chunk) {
